@@ -1,0 +1,84 @@
+body {
+  background-color: #d6f5ff;
+}
+h1{
+  text-align: center;
+}
+/* Style for dashboard */
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  border: 1px solid #0c0c0c;
+  height: 250px;
+}
+
+/* Style for widget */
+.widget-container2 {
+  background-color: #f2f2f2;
+  border: 1px solid #0c0c0c;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 5px;
+  width: 150px;
+}
+
+.wrapper{
+  display: flex;
+}
+/* Style for the container of the graph section */
+#graph-section {
+  border: 1px solid #0c0c0c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin-bottom: 50px;
+  float: left;
+}
+/* Style for widget header */
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Style for widget title */
+.widget-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style for widget dropdown */
+.widget-dropdown {
+  margin-bottom: 10px;
+}
+
+/* Style for widget button */
+.widget-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for canvas element */
+canvas {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
